@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin: 20px 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  text-align: justify;
+}
+
+ul,
+ol {
+  margin-left: 30px;
+}
+
+img {
+  width: 30%;
+}
+
+.btn {
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+}
+.btn__icon {
+  margin-left: 5px;
+}
+.btn--primary {
+  color: black;
+  background-color: white;
+}
+.btn--primary:hover {
+  color: white;
+  background-color: black;
+}
+.btn--secondary {
+  color: white;
+  background-color: black;
+}
+.btn--secondary:hover {
+  color: black;
+  background-color: white;
+}
+
+.card {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+@media (min-width: 460px) {
+  .card {
+    max-width: 200px;
+  }
+}
+.card__image {
+  width: 100px;
+  height: 100px;
+}
+.card__item {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapper__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.container {
+  padding: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+@media (min-width: 1200px) {
+  .container {
+    padding: 20px 0;
+  }
+}
+.container--fluid {
+  width: 100%;
+  max-width: 100%;
+}
+@media (min-width: 1200px) {
+  .container--fluid {
+    padding: 20px;
+  }
+}
+
+#navigation-open {
+  width: 50px;
+  height: 50px;
+}
+
+.navigation {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 10vh;
+}
+.navigation__list {
+  list-style-type: none;
+  display: none;
+}
+@media (min-width: 460px) {
+  .navigation__list {
+    display: flex;
+  }
+}
+.navigation__menu {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+@media (min-width: 460px) {
+  .navigation__menu {
+    display: none;
+  }
+}
+.navigation__brand {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation__item {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+.navigation__link {
+  color: black;
+  text-decoration: none;
+}
+.navigation__link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.layer {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: transparent;
+  color: white;
+}
+.layer__item {
+  z-index: 10000;
+  flex-basis: 100%;
+  background: black;
+}
+.layer__link {
+  opacity: 0;
+  bottom: 50%;
+  display: inline-block;
+  position: absolute;
+  transform: rotate(-90deg);
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+.layer__link:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  height: 90vh;
+  background: #8600f6;
+  color: white;
+  font-size: 20px;
+}
+.hero__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+@media (min-width: 460px) {
+  .hero__wrapper {
+    flex-direction: row;
+  }
+}
+.hero__content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (min-width: 460px) {
+  .hero__content {
+    width: 50%;
+  }
+}
+@media (min-width: 640px) {
+  .hero__content {
+    width: 60%;
+  }
+}
+@media (min-width: 800px) {
+  .hero__content {
+    width: 70%;
+  }
+}
+.hero__image {
+  padding: 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+@media (min-width: 460px) {
+  .hero__image {
+    width: 50%;
+  }
+}
+@media (min-width: 640px) {
+  .hero__image {
+    width: 40%;
+  }
+}
+@media (min-width: 800px) {
+  .hero__image {
+    width: 30%;
+  }
+}
+
+.section--dark {
+  background: black;
+  color: white;
+}
+.section--light {
+  background: white;
+  color: black;
+}
+
+.footer {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__link {
+  margin-right: 10px;
+}
+.footer__icon {
+  color: black;
+  width: 30px;
+  height: 30px;
+}
+
+/*# sourceMappingURL=/main.8f75cf09.css.map */
