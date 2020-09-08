@@ -5841,7 +5841,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.PRICE_ID = exports.STRIPE_PUBLISHABLE_KEY = exports.BASE_URL = void 0;
-var BASE_URL = "https://krystianfluder.github.io/landing-page/";
+var BASE_URL = "https://krystianfluder.github.io/landing-page";
 exports.BASE_URL = BASE_URL;
 var STRIPE_PUBLISHABLE_KEY = "pk_test_6Nw3PljmmhGzK3gt666dlyGh00XXNhDhir";
 exports.STRIPE_PUBLISHABLE_KEY = STRIPE_PUBLISHABLE_KEY;
@@ -5952,7 +5952,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "34055" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "44385" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
