@@ -1,0 +1,23 @@
+.card {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px;
+
+  @include mq(xsmall) {
+    max-width: 200px;
+  }
+
+  &__image {
+    width: 100px;
+    height: 100px;
+  }
+
+  &__item {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

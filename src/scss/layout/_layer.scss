@@ -1,0 +1,31 @@
+.layer {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: transparent;
+  color: white;
+
+  &__item {
+    z-index: 10000;
+    flex-basis: 100%;
+    background: $primary-background;
+  }
+
+  &__link {
+    opacity: 0;
+    bottom: 50%;
+    display: inline-block;
+    position: absolute;
+    transform: rotate(-90deg);
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

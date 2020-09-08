@@ -1,0 +1,16 @@
+.footer {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__link {
+    margin-right: 10px;
+  }
+
+  &__icon {
+    color: black;
+    width: 30px;
+    height: 30px;
+  }
+}

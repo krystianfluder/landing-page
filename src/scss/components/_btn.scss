@@ -1,0 +1,37 @@
+.btn {
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+
+  &__icon {
+    margin-left: 5px;
+  }
+
+  &--primary {
+    color: black;
+    background-color: white;
+
+    &:hover {
+      color: white;
+      background-color: black;
+    }
+  }
+
+  &--secondary {
+    color: white;
+    background-color: black;
+
+    &:hover {
+      color: black;
+      background-color: white;
+    }
+  }
+}
