@@ -2,7 +2,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/krystianfluder/landing-page/blob/master/LICENSE)
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
@@ -12,10 +12,10 @@
     <img src="ss/phone.png" alt="Logo" width="100">
   </a>
 
-  <h3 align="center">landing-page</h3>
+  <h3 align="center">Landing-page</h3>
 
   <p align="center">
-    parcel, gsap3, scss, stripe
+    Landing page made using: parcel, gsap 3, css, stripe. Google analytics and facebook pixel are attached to the website to provide the necessary measurements.
     <br />
     <br />
     <a href="https://krystianfluder.github.io/landing-page">View Demo</a>
@@ -40,7 +40,6 @@
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
 
 <!-- ABOUT THE PROJECT -->
 
@@ -91,7 +90,17 @@ npm install
 
 ## Usage
 
-[Demo](https://example.com)
+Development
+
+```sh
+npm start
+```
+
+Production
+
+```sh
+npm run build
+```
 
 <!-- ROADMAP -->
 
@@ -124,10 +133,6 @@ Distributed under the GNU GENERAL PUBLIC LICENSE. See `LICENSE` for more informa
 krystian.fluder@outlook.com
 
 Project Link: [https://github.com/krystianfluder/landing-page](https://github.com/krystianfluder/landing-page)
-
-<!-- ACKNOWLEDGEMENTS -->
-
-<!-- ## Acknowledgements -->
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
