@@ -1,7 +1,7 @@
 {
   "name": "landing-page",
   "version": "1.0.0",
-  "description": "Landing page made using: parcel, gsap 3, css, stripe. Google analytics and facebook pixel are attached to the website to provide the necessary measurements.",
+  "description": "Landing page made using: parcel, gsap 3, css, stripe.",
   "main": "index.js",
   "scripts": {
     "start": "parcel serve src/pages/*.html",

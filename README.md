@@ -15,7 +15,7 @@
   <h3 align="center">Landing-page</h3>
 
   <p align="center">
-    Landing page made using: parcel, gsap 3, css, stripe. Google analytics and facebook pixel are attached to the website to provide the necessary measurements.
+    Landing page made using: parcel, gsap 3, css, stripe.
     <br />
     <br />
     <a href="https://krystianfluder.github.io/landing-page">View Demo</a>
